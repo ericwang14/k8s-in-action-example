@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: kubia-manual-no-ports
+spec:
+    containers:
+        - image: ericw16/kubia
+          name: kubia
